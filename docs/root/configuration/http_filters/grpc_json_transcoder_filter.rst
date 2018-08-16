@@ -14,7 +14,7 @@ and get proxied to a gRPC service. The HTTP mapping for the gRPC service has to 
 JSON mapping
 ------------
 
-The protobuf to JSON mapping is defined `here <https://developers.google.com/protocol-buffers/docs/proto3#json>`. For
+The protobuf to JSON mapping is defined `here <https://developers.google.com/protocol-buffers/docs/proto3#json>`_. For
 gRPC stream request parameters, Envoy expects an array of messages, and it returns an array of messages for stream
 response parameters.
 
